@@ -1,0 +1,19 @@
+{
+  "name": "saleticket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Aayush",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.8.17",
+    "web3": "^1.0.0-beta.26"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.7.3"
+  }
+}
