@@ -33,7 +33,7 @@ function App() {
     }
   }, []);
 
-  const [loading, setLoading] = useState(false);
+  const [setLoading] = useState(false);
 
   const handlePurchaseTicket = async () => {
     if (contract && account && ticketId) {
